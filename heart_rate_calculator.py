@@ -25,6 +25,9 @@ grey_zone_maximum = .60 * maximum_heart_rate
 
 #print(f'To be in the orange zone keep your heart rate between {orange_zone_minimum} and {orange_zone_maximum}.')
 
+# Use if, elif and else statement to get desired heart rate range.
+
+#both hard-coded user color and as a variable 
 user_color  = str (input("What color zone do you want to work out at today? The ranges go from red being very difficult to grey being very light. Please choose red, orange, green, blue or grey? "))
 
 if user_color=="red":
